@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-size: 100%;
+    background: #FFFFFF;
+}
+
+.Header {
+    padding: 30px;
+    padding-left: 130px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.title {
+    margin: 15px;
+}
+
+.title h1 {
+    text-transform: uppercase;
+    color: #343D33;
+    font-weight: 500;
+    font-family: Roboto;
+    font-size: 24px;
+}
+
+.title h2 {
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: italic;
+    color: #333333;
+    margin-top: 3px;
+}
+
+.Header-components {
+    display: flex;
+    gap: 32px;
+    font-family: Roboto;
+    font-weight: 500;
+    text-transform: uppercase;
+    align-items: center;
+}
+
+#home, #visit, #exhibitions, #programs, #store {
+    color: #414840;
+}
+
+#membership {
+    align-items: center;
+    color: #475F45;
+    font-family: Roboto;
+    font-weight: 500;
+    text-transform: uppercase;
+    height: 40px;
+    width: 160px;
+}
