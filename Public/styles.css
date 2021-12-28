@@ -13,7 +13,6 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
 }
 
 .title {
@@ -38,6 +37,7 @@
 
 .Header-components {
     display: flex;
+    padding-left: 32rem;
     gap: 32px;
     font-family: Roboto;
     font-weight: 500;
@@ -45,16 +45,70 @@
     align-items: center;
 }
 
-#home, #visit, #exhibitions, #programs, #store {
+#home {
+    color: #475F45;
+}
+
+#visit, #exhibitions, #programs, #store {
     color: #414840;
 }
 
 #membership {
     align-items: center;
     color: #475F45;
+    border: 2px solid #475F45;
     font-family: Roboto;
     font-weight: 500;
     text-transform: uppercase;
     height: 40px;
     width: 160px;
+    cursor: pointer;
+}
+
+.Main-components {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Main-letters h1 {
+    font-family: Libre Baskerville;
+    font-weight: 400;
+    font-size: 57px;
+    color: #343D33;
+}
+
+.Main-letters  h2 {
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 25px;
+    color: #414840;
+}
+
+.Main-buttons button {
+    font-family: Roboto;
+    font-size: 14px;
+    text-transform: uppercase;
+    width: 11rem;
+    height: 56px;
+    margin-top: 2rem;
+}
+
+.Main-buttons #buy {
+    font-weight: 500;
+    background: #475F45;
+    border: none;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+}
+
+.Main-buttons #learn {
+    font-weight: 700;
+    margin-left: 14px;
+    align-items: center;
+    color: #475F45;
+    border: 2px solid #475F45;
+    cursor: pointer;
 }
