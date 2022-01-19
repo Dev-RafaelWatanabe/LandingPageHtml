@@ -62,7 +62,14 @@
     text-transform: uppercase;
     height: 40px;
     width: 160px;
+    transition: 0.3s;
     cursor: pointer;
+}
+
+#membership:hover {
+    background: #334232;
+    border: 2px solid #334232;
+    color: white;
 }
 
 .Main-components {
@@ -102,6 +109,14 @@
     align-items: center;
     color: white;
     cursor: pointer;
+    transition: 0.2s;
+}
+
+.Main-buttons #buy:hover {
+    background: #ececec;
+    color: #475F45;
+    border: 2px solid #475F45;
+    font-weight: 700;
 }
 
 .Main-buttons #learn {
@@ -111,4 +126,11 @@
     color: #475F45;
     border: 2px solid #475F45;
     cursor: pointer;
+    transition: 0.2s;
+}
+
+.Main-buttons #learn:hover {
+    background: #334232;
+    color: white;
+    font-weight: 500;
 }
